@@ -4,7 +4,7 @@ for(int i = 0; i < word.length() - 1; i ++)
 {
   if (word.charAt(i) == 'A' && word.charAt(i+1 != 'A'))
   {
-    word = word.substring(0, i) + word.charAt(i + 1) + "A" + word.substring(i + 1);
+    word = word.substring(0, i) + word.charAt(i + 1) + "A" + word.substring(i + 2);
   }
 }
 
